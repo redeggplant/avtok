@@ -1,0 +1,340 @@
+
+h1 {
+	color: #0082CD;
+	font-size: 37pt;
+	font-weight: 400;
+	margin: 25px 0 30px 26px;
+}
+
+h2 {
+	color:#5C5A5A;
+	font-size: 37pt;
+	font-weight: 500;
+	margin: 30px 9px 25px 22px;
+	line-height: 20px;
+	display: inline;
+}
+
+h3 {
+	font-size: 25px;
+	color: #5C5A5A;
+	margin: 0 0 10px 0;
+	line-height: 1;
+}
+
+h4 {
+	color:#5C5A5A;
+	font-size: 16pt;
+	font-weight: 500;
+	display: inline;
+}
+
+.b-grey-light-box-bottom {
+	margin-top: -60px;
+}
+
+form {
+	margin: 0;
+	overflow: hidden;
+}
+
+.big-number {
+	color: #0082CD	!important;
+	font-weight: 400 !important;
+	font-size: 52pt !important;
+	padding: 0 0 0 10px;
+}
+
+
+#main-wrapper{
+	width:1170px;
+	/*height: 100%;*/
+	height: 1000px;
+	background-color: white;
+	margin: 15px auto 25px;
+}
+
+#logos{ 
+	overflow: hidden;
+	width: 1130px;
+}
+
+#logos img{
+	height: 50px;
+	width: 70px;
+	float: left;
+	margin: 21px;
+}
+
+#catalogForm .form-action{
+	margin-top: -40px;
+}
+
+#summary-wrapper{
+	position: relative;
+	width: 100%;
+	height: 230px;
+}
+
+#summary-wrapper #summary {
+	position: relative;
+	float: left;
+	margin-right: 13px;
+	width: 795px;
+}
+
+.car-name {
+	margin-top: 30px;
+}
+
+#summary-wrapper #summary #price{
+	margin-top: 40px;
+}
+
+.button-place .btn {
+	padding: 10px 20px;
+}
+#summary-wrapper #summary #descr .text,
+#summary-wrapper #summary #descr .button-place {
+	width: 40%;
+	margin: 0 5px 0 30px;
+	float: left;
+}
+
+#summary-wrapper #summary #descr .button-place {
+	float: right;
+}
+
+#summary-wrapper #photo {
+	width: 300px;
+	height: 228px;
+	overflow: hidden;
+	background-color: #F6F6F6;
+	border: 1px solid #686B6A;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#summary-wrapper #photo img{
+	width: 300px;
+	height: 230px;
+}
+
+#model-teb-set {
+	margin: 0 19px 0 19px;
+}
+
+#model-teb-set ul {
+	width: inherit;
+	height: 40px; 
+	list-style: none;
+	margin: 20px 0 30px 0;
+	padding: 0;
+	border-bottom: 1px solid #5C5A5A;
+	z-index: 2;
+}
+
+#model-teb-set ul li {
+	float: left;
+	width: 225px;
+	height: inherit;
+	margin-right: 7px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#model-teb-set ul .active{
+	border: 1px solid #5C5A5A;
+	border-bottom: none;
+	background-color: white;
+	color: black;
+
+	/* IE9 Consumer Preview */ 
+	background-image: url('img/ie-tab.png');
+	background-repeat: repeat-x;
+
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #CCCCCC 0%, #EBEBEB 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #CCCCCC 0%, #EBEBEB 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #CCCCCC 0%, #EBEBEB 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CCCCCC), color-stop(1, #EBEBEB));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #CCCCCC 0%, #EBEBEB 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #CCCCCC 0%, #EBEBEB 100%);
+}
+
+#model-teb-set ul .inactive{
+	height: 39px;
+	color: #ACACAC;
+	border: 1px solid #ACACAC;
+	border-bottom: none;
+	background-color: #ECECEC;
+	z-index: 1;
+}
+
+#model-teb-set ul li a{
+	display: block;
+	width: 225px;
+	height: 40px;
+	padding-top: 11px;
+	font-size: 12pt;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#model-teb-set ul .inactive a{
+	color:#ACACAC;
+}
+
+#model-teb-set ul .active a{
+	color:black;
+}
+
+#tab-content .calculation-table{
+	width: 445px;
+	float: left;
+	padding-bottom: 18px;
+}
+
+#tab-content .calculation-table .header, 
+#works-list .column .calculation-table .header {
+		height: 40px;
+}
+#tab-content .calculation-table .header th, 
+#works-list .column .calculation-table .header th {
+	color:#5C5A5A;
+	border-bottom: 3px solid #5C5A5A;
+	padding-left: 0;
+	text-align: left;
+	font-size: 20px;
+}
+#tab-content .calculation-table tr{
+	height: 35px;
+}
+
+#tab-content .calculation-table .first-row , 
+#works-list .column .calculation-table .first-row {
+	height: 45px;
+}
+
+#tab-content .calculation-table .first-row td, 
+#works-list .column .calculation-table .first-row td {
+	padding-top: 13px;
+}
+
+#tab-content .calculation-table tr td img{
+	padding: 0px 7px;
+	vertical-align: middle;
+}
+
+#tab-content .calculation-table tr td {
+	border-right: none;
+	border-bottom: 1px solid #808080;
+}
+#tab-content .calculation-table tr td, #tab-content .calculation-table tr th{
+		padding: 0 10px 0 10px;
+}
+#tab-content .calculation-table tr .numbers{
+	text-align: right;
+}
+
+#tab-content .calculation-table .even-row{
+	background-color: #F6F6F6;
+}
+
+#tab-content .calculation-table .last-row td{
+	border-bottom: none;	
+	font-weight: bold;
+}
+
+#show-more-square {
+	float:left;
+	width: 243px;
+	overflow: hidden;
+	background-color: #F9F9F9;
+	margin: 35px 25px;
+	padding: 7px 0 20px 0px;
+	border: 1px solid #C2C2C2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	-webkit-box-shadow: 0px 0px 30px rgba(223, 223, 233, 0.8);
+	-moz-box-shadow:    0px 0px 30px rgba(223, 223, 233, 0.8);
+	box-shadow:         0px 0px 30px rgba(223, 223, 233, 0.8);
+}
+#show-more-square p {
+	width: inherit;
+	color: #5C5A5A;
+	text-align: center;
+	font-size: 14pt;
+	padding: 9px 0 0;
+	font-weight: 600;
+	margin: 0px;
+}
+
+#show-more-square .model {
+	font-size: 24pt;
+	padding: 14px 0 0;
+	font-weight: 500;
+	margin-bottom: -5px;
+}
+
+#show-more-square .big-number {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#serchCatalogRow #headline .page-header {
+	height: 95px;
+	background-color: #F6F6F6;
+	border: 1px solid #C2C2C2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#serchCatalogRow #headline #name, #detail-works #headline #works-count{
+	width: 50%;
+	float: left;
+	margin-top: 40px;
+}
+
+#serchCatalogRow #headline #works-count{
+	color: #5C5A5A;
+	font-size: 14pt;
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+#works-list {
+	margin: 19px;
+}
+
+#works-list .column{
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+#works-list .column .calculation-table {
+	position: relative;
+	width: 95%;
+	margin-bottom: 35px;
+}
+
+#works-list .column .calculation-table tr {
+	position: relative;
+	height: 30px;
+}

@@ -1,0 +1,4 @@
+<? echo $statistic_form; ?>
+
+
+
