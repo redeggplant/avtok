@@ -57,7 +57,7 @@
 <div id="container" class="container">
 	<?= $content; ?>
 </div>
-
+hi
 <footer id="footer" class="navbar navbar-fixed-bottom">
     <small>&copy; Все права защищены Avtology 2012 info@avtology.ru</small>
 </footer>	
