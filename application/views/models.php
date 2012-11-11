@@ -15,7 +15,7 @@
 		</div>
     </div>
     <pre>
-    <?// print_r($dues); ?>
+    <? //print_r($dues); ?>
     </pre>
     
     <div id="model-teb-set" class="tabbable">
@@ -25,23 +25,24 @@
                       <? endforeach; ?>  
 					</ul>  
 					<div id="tab-content" class="tab-content">
-                        <? foreach($dues as  $k=>$due) : ?> 
+                        <? foreach($dues as  $k=>$dueis) : ?> 
                         
                         <div class="tab-pane" id="tab<?= $k; ?>">
-                        <?= $dues[$k][0]['due_value']; ?>
+                        
                             <table cellspacing="0" class="calculation-table">
                                 <tr class="header">
                                     <th class="text">Расход</th>
                                     <th class="numbers">Рублей в год</th>
                                 </tr>
-                                <tr class="first-row">
-                                    <td>ОСАГО<img src="img/warn.png" /></td>
-                                    <td class="numbers">6 363</td>
-                                </tr>
-                                <tr class="even-row">
-                                    <td>КАСКО<img src="img/quest.png" /></td>
-                                    <td class="numbers">164 690</td>
-                                </tr>
+								<? foreach($dueis as $due):?>
+									<tr class="first-row">
+                                    <td><?= $due['name']; ?><img src="img/warn.png" /></td>
+                                    <td class="numbers"><?= $due['due_value']; ?></td>
+									</tr>
+									
+								<? endforeach; ?>
+                                
+                               
                             </table>
                         </div>
                         <? endforeach; ?> 

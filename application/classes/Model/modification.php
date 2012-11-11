@@ -16,12 +16,12 @@ class Model_Modification extends ORM
 		),
 	);
     
-    protected $_has_many = array(
+    /*protected $_has_many = array(
 		'due' => array(
 			'model' => 'due',
 			'foreign_key' => 'id_modification',
 		),
-	);    
+	);*/    
 
     
     public function getModification($year, $id_series, $to_number)
